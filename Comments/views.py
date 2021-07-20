@@ -1,11 +1,11 @@
 from django.shortcuts import render
 from rest_framework import generics,mixins
 from .models import Comment
-from.serializers import CommentSerializer
+from.serializers import CommentSerializer,CommentDetailSerializer
 # Create your views here.
 class CommentDetailApiView(generics.RetrieveAPIView):
     queryset = Comment.objects.all()
-    serializer_class = CommentSerializer
+    serializer_class = CommentDetailSerializer
 
 
 class CommentListView(generics.ListAPIView,mixins.CreateModelMixin):

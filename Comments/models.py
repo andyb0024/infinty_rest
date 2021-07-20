@@ -5,9 +5,9 @@ from django.conf import settings
 from Accounts.models import MyUser
 # Create your models here.
 class CommentManager(models.Manager):
-    # def all(self):
-    #     qs=super(CommentManager,self).filter(parent=None)
-    #     qs
+    def all(self):
+        qs=super(CommentManager,self).filter(parent=None)
+        return qs
 
     def filter_by_instance(self,instance):
         content_type=ContentType.objects.get_for_model(instance.__class__)
