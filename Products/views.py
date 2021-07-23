@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework import generics,mixins
 from rest_framework.views import APIView
 from.models import Product
-from.serializers import ProductSerializer
+from.serializers import ProductSerializer,ProductDetailSerializer
 from django.http import Http404
 from rest_framework.response import Response
 # Create your views here.
@@ -27,5 +27,5 @@ class ProductDetailView(APIView):
 
     def get(self, request, slug, format=None):
         snippet = self.get_object(slug)
-        serializer = ProductSerializer(snippet)
+        serializer = ProductDetailSerializer(snippet)
         return Response(serializer.data)

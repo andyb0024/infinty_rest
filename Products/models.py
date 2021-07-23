@@ -4,6 +4,7 @@ import  os
 import random
 from django.db.models.signals import pre_save
 from .utils import unique_slug_generator
+from Comments.models import ContentType
 # Create your models here.
 def get_filename_ext(filepath):
     base_name=os.path.basename(filepath)
@@ -33,7 +34,11 @@ class Product(models.Model):
 
     def __str__(self):
         return self.title
-
+    @property
+    def get_content_type(self):
+        instance=self
+        content_type=ContentType.objects.get_for_model(instance.__class__)
+        return content_type
 
 def product_pre_save_receiver(sender,instance,*args,**kwargs):
     if not instance.slug:
