@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071bcc0a-ecf7-4a88-9d0c-5466ac12139d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Carts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0002_auto_20210727_0138.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0003_auto_20210730_1009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0004_cart_cartitem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0005_cartitem_linetotal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0006_alter_cartitem_linetotal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/0007_alter_cart_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Carts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/migrations/0002_product_tax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_20_2021_6_05_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_20_2021_6_05_AM__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="071bcc0a-ecf7-4a88-9d0c-5466ac12139d" name="Default Changelist" comment="create cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inf_pro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inf_pro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inf_pro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inf_pro/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626367673298</updated>
     </task>
+    <task id="LOCAL-00001" summary="create cart">
+      <created>1628174345247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628174345247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="create cart" />
   </component>
 </project>

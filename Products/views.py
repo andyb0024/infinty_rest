@@ -11,7 +11,7 @@ class ProductListView(generics.ListAPIView,mixins.CreateModelMixin):
     permission_classes = []
     serializer_class = ProductSerializer
     def get_queryset(self):
-        qs=Product.objects.all()
+        qs=Product.objects.all().order_by("-timestamp")
         return qs
     def post(self,request,*args,**kwargs):
         return self.create(request,*args,**kwargs)
