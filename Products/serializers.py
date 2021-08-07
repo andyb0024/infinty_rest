@@ -5,7 +5,7 @@ from Comments.models import Comment
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model=Product
-        fields=['user','title','description','price','image','slug']
+        fields=['user','title','description','price','image','slug','timestamp']
 
 
 class ProductDetailSerializer(serializers.ModelSerializer):
