@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="071bcc0a-ecf7-4a88-9d0c-5466ac12139d" name="Default Changelist" comment="create cart">
+      <change afterPath="$PROJECT_DIR$/Accounts/migrations/0002_shipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accounts/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/migrations/0002_alter_billingprofile_pincode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billings/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0002_auto_20210829_0525.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0003_delete_ordereditems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0004_order_billing_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0005_auto_20210903_1113.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0006_auto_20210903_1140.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inf_pro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inf_pro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inf_pro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inf_pro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Products/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -16,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,7 +81,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/med_ecom-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Orders" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andy b\Infinity\Inf_pro\Orders" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628174345247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create cart">
+      <created>1628367426285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628367426285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create cart">
+      <created>1628367543686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628367543686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

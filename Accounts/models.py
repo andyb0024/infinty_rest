@@ -1,7 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import (AbstractBaseUser,BaseUserManager)
+from django.contrib.auth import get_user_model
 
-# Create your models here.
+
 
 class MyUserManager(BaseUserManager):
         def create_user(self,email,username,password=None):
@@ -60,3 +61,10 @@ class MyUser(AbstractBaseUser):
     def has_module_perms(self, app_label):
         "Does the user have permissions to view the app `app_label`?"
         return True
+
+
+class Shipping(models.Model):
+    user = models.ForeignKey(MyUser, on_delete=models.CASCADE, null=True, blank=True)
+    name=models.CharField(max_length=120)
+    address=models.CharField(max_length=120)
+    contact=models.CharField(max_length=15)
